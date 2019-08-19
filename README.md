@@ -11,10 +11,10 @@ $ ruby main.rb
 $ ruby test.rb
 ```
 
-# Language
+## Language
 I used Ruby to do this project
 ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux-gnu]
 
 
-# Next Steps
+## Next Steps
 In the future I'm hoping to refactor the code to make it more concise and add some automated tests
