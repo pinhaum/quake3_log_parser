@@ -6,7 +6,7 @@ A simple Quake 3 arena log parser based on the tasks showed in https://gist.gith
 You can run the program and the tests from the terminal
 ```
 $ git clone https://github.com/pinhaum/quake3_log_parser
-$ cd PG_quake-3-charm
+$ cd quake3_log_parser
 $ ruby main.rb
 $ ruby test.rb
 ```
