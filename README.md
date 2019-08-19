@@ -12,7 +12,7 @@ $ ruby test.rb
 ```
 
 ## Language
-I used Ruby to do this project
+I used Ruby to do this project - 
 ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux-gnu]
 
 
