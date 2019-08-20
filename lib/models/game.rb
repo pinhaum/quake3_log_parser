@@ -20,20 +20,12 @@ class Game
   end
 
   def find_player_by_id(id)
-    @players.each do |player|
-      return player if player.id == id
-    end
-
-    nil
+   @players.find { |player| player.id == id }
   end
 
   def find_player_by_name(name)
-    @players.each do |player|
-      return player if player.name == name
-    end
-
-    nil
-  end
+    @players.find { |player| player.name == name }
+  end  
 
   def format
     game = @name + ": {\n"
