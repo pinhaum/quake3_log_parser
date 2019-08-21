@@ -1,14 +1,16 @@
+# frozen_string_literal: true
+
 require 'test/unit'
 load 'lib/models/player.rb'
 
 class PlayerTest < Test::Unit::TestCase
   def setup
-    @player = Player.new(2, "Isgalamido")
+    @player = Player.new(2, 'Isgalamido')
   end
 
   def test_initialize
     assert_equal(2, @player.id)
-    assert_equal("Isgalamido", @player.name)
+    assert_equal('Isgalamido', @player.name)
     assert_equal(0, @player.kills)
   end
 
@@ -21,5 +23,4 @@ class PlayerTest < Test::Unit::TestCase
     @player.decrease_kill
     assert_equal(-1, @player.kills)
   end
-
 end
